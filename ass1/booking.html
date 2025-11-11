@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Falasteen Trails | Booking</title>
+</head>
+<body>
+
+<header>
+    <div align="center">
+        <img src="images/logo.png" alt="Falasteen Trails logo" width="160" height="160">
+        <h1>Falasteen Trails</h1>
+        <em>Tours & Travels — Explore the Soul of the Holy Land</em>
+        <hr>
+        <nav>
+        <a href="index.html">Home</a> |
+        <a href="destinations.html">Destinations</a> |
+        <a href="tour-packages.html">Packages</a> |
+        <a href="booking.html">Booking</a> |
+        <a href="about.html">About</a> |
+        <a href="gallery.html">Gallery</a> |
+        <a href="faq.html">FAQ</a>
+        </nav>
+        <hr>
+    </div>
+</header>
+
+<main>
+    <h2>Book Your Tour</h2>
+
+    <section>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone"><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Travel Details</legend>
+                <label for="start-date">Start Date:</label><br>
+                <input type="date" id="start-date" name="start-date" required><br><br>
+
+                <label for="end-date">End Date:</label><br>
+                <input type="date" id="end-date" name="end-date" required><br><br>
+
+                <label for="destination">Select Destination:</label><br>
+                <select id="destination" name="destination">
+                    <option value="jerusalem">Jerusalem</option>
+                    <option value="bethlehem">Bethlehem</option>
+                    <option value="nablus">Nablus</option>
+                    <option value="ramallah">Ramallah</option>
+                    <option value="hebron">Hebron</option>
+                    <option value="jericho">Jericho</option>
+                </select><br><br>
+
+                <label for="travelers">Number of Travelers:</label><br>
+                <input type="number" id="travelers" name="travelers" min="1" value="1"><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Tour Type</legend>
+                <input type="radio" id="group" name="tour-type" value="group" checked>
+                <label for="group">Group Tour</label><br>
+                <input type="radio" id="private" name="tour-type" value="private">
+                <label for="private">Private Tour</label><br>
+                <input type="radio" id="custom" name="tour-type" value="custom">
+                <label for="custom">Custom Tour</label><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Services</legend>
+                <input type="checkbox" id="hotel" name="services" value="hotel">
+                <label for="hotel">Hotel Booking</label><br>
+                <input type="checkbox" id="guide" name="services" value="guide">
+                <label for="guide">Tour Guide</label><br>
+                <input type="checkbox" id="transport" name="services" value="transport">
+                <label for="transport">Transportation</label><br>
+                <input type="checkbox" id="meals" name="services" value="meals">
+                <label for="meals">Meals</label><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Special Requests</legend>
+                <label for="requests">Comments:</label><br>
+                <textarea id="requests" name="requests" rows="4" cols="50" placeholder="Any special requests..."></textarea><br><br>
+            </fieldset>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <div align="center">
+        <hr>
+        <p><strong>Falasteen Trails</strong> – Explore Palestine with Heart</p>
+        <p>📍 Al-Manara Street, Ramallah, Palestine</p>
+        <p>📧 Email: <a href="mailto:1210802@student.birzeit.edu">1210802@student.birzeit.edu</a> | ☎️ +970-123-4567</p>
+        <p>© 2025 Falasteen Trails. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
