@@ -28,7 +28,7 @@ web-dev-assignments-comp334/
 
 ### **Assignment 1 – HTML Structure & Semantic Elements**
 **Goal:** Create a structured, semantic HTML page demonstrating understanding of headings, lists, links, and layout.  
-📄 [View Assignment 1](./ass/ass1/index.html)
+📄 [View Assignment 1](ass1/index.html)
 
 ---
 
