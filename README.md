@@ -29,12 +29,11 @@ web-dev-assignments-comp334/
 ### **Assignment 1 – HTML Structure & Semantic Elements**
 
 * **Goal:** Create a structured, semantic HTML page using headings, lists, links, and layout tags.
-* 🔗 [View Assignment 1](https://www.google.com/search?q=ass/ass1/index.html)
+* 🔗 [Explore Assignment 1](./ass/ass1/)
 
 ### **Assignment 2 – PHP Dynamic Web Pages**
-
 * **Goal:** Implement dynamic content rendering, server-side form handling, and user input processing.
-* 🔗 [View Assignment 2](https://www.google.com/search?q=ass/ass2/index.php)
+* 🔗 [Explore Assignment 2](./ass/ass2/)
 
 ### **Assignment 3 – Database Integration & CSS Styling**
 
