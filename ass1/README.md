@@ -29,7 +29,7 @@ At this stage, the site is **static**, designed to demonstrate **document hierar
 ![Document Structure](images/structure.png)
 
 2. **Information Architecture**
-![Information Architecture](images/list-tables.png)`
+![Information Architecture](images/list_tables.png)`
 
 ---
 
