@@ -1,75 +1,80 @@
 # 🌐 Web Development Assignments – COMP 334
 
-This repository showcases my coursework for **COMP 334: Web Applications and Technologies**.  
-Each assignment builds upon core web development skills — starting from HTML structure and expanding to PHP scripting, CSS styling, and database integration.
+This repository showcases my coursework for **COMP 334: Web Applications and Technologies** at Birzeit University. Each assignment builds upon core web development skills, progressing from structural HTML to dynamic backend integration.
 
 ---
 
 ## 📁 Project Structure
 
-```
-
+```text
 web-dev-assignments-comp334/
 │
-├── index.html              # Main homepage for all assignments
-├── /ass/                   # Assignment directory
-│   ├── index.html          # Assignment index page
-│   ├── /ass1/              # Assignment 1 (HTML)
+├── index.html              # Main landing page for the repository
+├── ass/                    # Assignments directory
+│   ├── ass1/               # Assignment 1: HTML Semantic Structure
 │   │   ├── index.html
 │   │   └── assets/
-│   ├── /ass2/              # Assignment 2 (PHP - coming soon)
-│   └── /ass3/              # Assignment 3 (Database + CSS - coming soon)
+│   ├── ass2/               # Assignment 2: PHP Dynamic Web Pages
+│   │   └── index.php
+│   └── ass3/               # Assignment 3: Database Integration & CSS
+│       └── index.php
 └── README.md
 
-````
+```
 
 ---
+
 ## 🧩 Assignments Overview
 
 ### **Assignment 1 – HTML Structure & Semantic Elements**
-**Goal:** Create a structured, semantic HTML page demonstrating understanding of headings, lists, links, and layout.  
-📄 [View Assignment 1](ass1/index.html)
 
----
+* **Goal:** Create a structured, semantic HTML page using headings, lists, links, and layout tags.
+* 🔗 [View Assignment 1](https://www.google.com/search?q=ass/ass1/index.html)
 
-### **Assignment 2 – PHP Dynamic Web Pages** *(Coming Soon)*  
-**Goal:** Implement dynamic content rendering and basic form handling using PHP.
+### **Assignment 2 – PHP Dynamic Web Pages**
 
----
+* **Goal:** Implement dynamic content rendering, server-side form handling, and user input processing.
+* 🔗 [View Assignment 2](https://www.google.com/search?q=ass/ass2/index.php)
 
-### **Assignment 3 – Database Integration & CSS Styling** *(Coming Soon)*  
-**Goal:** Combine CSS for styling and MySQL for backend data storage and retrieval.
+### **Assignment 3 – Database Integration & CSS Styling**
+
+* **Goal:** Combine CSS for modern UI design and MySQL for persistent backend data storage.
+* ⚠️ *Status: In Progress / Coming Soon*
 
 ---
 
 ## ⚙️ How to Run Locally
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/abdallahabed/COMP334-WebAssignments.git
-````
+Because this project uses **PHP**, simply opening the files in a browser will not work for Assignments 2 and 3. You need a local server environment (like **XAMPP**, **WAMP**, or **MAMP**).
 
-2. Open `index.html` in your browser to start from the main homepage.
-3. Navigate between assignments through the navigation bar or links.
+1. **Clone the repository** into your server's root directory (e.g., `C:/xampp/htdocs/`):
+```bash
+git clone [https://github.com/abdallahabed/COMP334-WebAssignments.git](https://github.com/abdallahabed/COMP334-WebAssignments.git)
+
+```
+
+
+2. **Start Apache & MySQL:** Open your local server control panel and start the Apache and MySQL modules.
+3. **Access via Browser:** Navigate to: `http://localhost/COMP334-WebAssignments/index.html`
 
 ---
 
 ## 🧠 Technologies Used
 
-* HTML5
-* CSS3 *(upcoming)*
-* PHP *(upcoming)*
-* MySQL *(upcoming)*
+* **Frontend:** HTML5, CSS3
+* **Backend:** PHP
+* **Database:** MySQL (Assignment 3)
 
 ---
 
-
 ## 🧑‍💻 Author
 
-**Abdallah Aabed**
-📧 [1210802@student.birzeit.edu](mailto:1210802@student.birzeit.edu)
-🎓 Birzeit University – COMP 334: Web Applications and Technologies
+**Abdallah Aabed** 📧 [1210802@student.birzeit.edu](mailto:1210802@student.birzeit.edu)
 
-© 2025 Abdallah Aabed. All Rights Reserved.
+🎓 Birzeit University – COMP 334
 
-```
+---
+
+*© 2025 Abdallah Aabed. All Rights Reserved.*
+
+
