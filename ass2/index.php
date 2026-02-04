@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falasteen Trails | Explore the Soul of the Holy Land</title>
+</head>
+
+<body>
+    
+   <?php include 'header.php'; ?>
+    <main>
+        <section>
+            <h2>Welcome to Falasteen Trails</h2>
+            <p>
+                Founded by <strong>Abdallah Aabed</strong>, a Computer Science student and passionate traveler from Al-Bireh, 
+                <strong>Falasteen Trails</strong> was created to help visitors explore the beauty, history, and hospitality of Palestine.  
+                We combine technology, local expertise, and cultural pride to make every journey meaningful and authentic.
+            </p>
+            <figure>
+                <img src="images/jerusalem.jpg" alt="View of Dome of the Rock in Jerusalem" width="500">
+                <figcaption><strong>Jerusalem – The Heart of the Holy Land</strong><br>
+                Discover centuries of history and spiritual landmarks in this timeless city.</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Featured Destinations in Palestine</h2>
+
+            <figure>
+                <img src="images/bethlehem.jpg" alt="Church of the Nativity in Bethlehem" width="250">
+                <figcaption>Bethlehem – The City of Peace, where ancient history meets living faith.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/jericho.jpg" alt="Palm trees in Jericho oasis" width="250">
+                <figcaption>Jericho – The oldest continuously inhabited city in the world.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/nablus.jpg" alt="Old market in Nablus" width="250">
+                <figcaption>Nablus – Heart of heritage, olive oil, and famous knafeh.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/hebron.jpg" alt="Ibrahimi Mosque in Hebron" width="250">
+                <figcaption>Hebron – A city of craftsmanship and spiritual significance.</figcaption>
+            </figure>
+        </section>
+
+        <article>
+            <h2>Company News & Announcements</h2>
+            <p><strong>November 2025:</strong> Falasteen Trails is proud to launch our new “Nature & Heritage Trails” program connecting travelers with rural Palestinian communities.</p>
+            <p>🌿 <strong>Winter Season Offer:</strong> Book a cultural or hiking tour before December 31, 2025, and receive 20% off plus a free local guide map.</p>
+            <p>We are also expanding our digital booking system to make planning your next visit to Palestine faster and easier.</p>
+        </article>
+
+    </main>
+
+    <aside>
+        <h3>Quick Facts About Falasteen Trails</h3>
+        <ul>
+            <li><strong>Founded:</strong> 2024 in Ramallah</li>
+            <li><strong>Focus:</strong> Cultural, historical, and nature-based tourism in Palestine</li>
+            <li><strong>Tours Completed:</strong> 100+ successful experiences</li>
+            <li><strong>Local Expertise:</strong> Certified Palestinian guides</li>
+            <li><strong>Tip:</strong> Dress modestly when visiting religious sites</li>
+            <li><strong>Announcement:</strong> Student and group discounts available all year</li>
+        </ul>
+    </aside>
+    <hr>
+    <?php include 'footer.php'; ?>
+
+</body>
+</html>
