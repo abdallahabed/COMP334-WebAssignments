@@ -25,10 +25,11 @@ At this stage, the site is **static**, designed to demonstrate **document hierar
 ---
 
 ## 📸 Screenshots
-1. **Document Structure** – Showing clean, unstyled semantic layout.  
-   `![Document Structure](images/structure.png)`  
-2. **Information Architecture** – Using lists and tables to organize trip details.  
-   `![Information Architecture](images/lists-tables.png)`
+1. **Document Structure**
+![Document Structure](images/structure.png)
+
+2. **Information Architecture**
+![Information Architecture](images/lists-tables.png)`
 
 ---
 
