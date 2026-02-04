@@ -59,6 +59,17 @@ ass2/
 
 ---
 
+---
+
+## 🗄️ Database Setup
+1. Open **phpMyAdmin**.
+2. Create a new database named `travel_company`.
+3. Import the `database.sql` file located in the `ass2/` folder.
+4. Ensure your `db_config.php` matches your local MySQL credentials
+
+
+---
+
 ## ⚙️ How to Run Locally
 
 1. Copy the `ass2/` folder into your local server’s root directory (e.g., `htdocs` for XAMPP).  
@@ -75,14 +86,15 @@ ass2/
 ---
 
 ## 📸 Screenshots
-1. **Homepage / Trip Catalog**  
-`![Homepage](images/home.png)`  
 
-2. **Search & Filter Interface**  
-`![Search Trips](images/search.png)`  
+### 1. Homepage / Trip Catalog
+![Homepage](images/home.png)
 
-3. **Booking Form & Confirmation**  
-`![Booking Page](images/booking.png)`  
+### 2. Search & Filter Interface
+![Search Trips](images/search.png)
+
+### 3. Booking Form & Confirmation
+![Booking Page](images/booking.png)`  
 
 ---
 
